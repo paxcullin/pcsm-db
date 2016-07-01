@@ -1,0 +1,30 @@
+{
+  "name": "pcsm-db",
+  "version": "1.0.0",
+  "description": "PCSM Database Management Tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run stopdynamodb && npm run startdynamodb && mocha test -b --recursive --reporter spec",
+    "stopdynamodb": "docker stop dynamodb",
+    "startdynamodb": "docker run -d --name dynamodb --publish 8000:8000 kasitmp/dynamodb-local-ubuntu"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paxcullin/pcsm-db.git"
+  },
+  "author": "Paul Cullin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paxcullin/pcsm-db/issues"
+  },
+  "homepage": "https://github.com/paxcullin/pcsm-db#readme",
+  "dependencies": {
+    "aws-sdk": "^2.2.30"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "sinon": "^1.17.2",
+    "sinon-chai": "^2.8.0"
+  }
+}

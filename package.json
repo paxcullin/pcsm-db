@@ -1,0 +1,19 @@
+{
+  "name": "pcsm-db",
+  "version": "1.0.0",
+  "description": "Utility for administering and setting up the PCSM database",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paxcullin/pcsm-db.git"
+  },
+  "author": "Paul Cullin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paxcullin/pcsm-db/issues"
+  },
+  "homepage": "https://github.com/paxcullin/pcsm-db#readme"
+}

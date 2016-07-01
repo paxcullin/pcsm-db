@@ -1,0 +1,14 @@
+{
+  "operation": "create",
+  "tableName": "Prediction",
+  "payload": {
+    "Item": {
+      "EventId": "NFL#2016-02-07T23:25:00+00:00#Levis Stadium#Arizona@Denver",
+      "UserId": "facebook|10208601241532203",
+      "AwayScore": "20",
+      "HomeScore": "17",
+      "PredictorLocation": "47.6023590,-122.3365170",
+      "PredictedDateTime": "2016-01-20T01:18:42+00:00"
+    }
+  }
+}
